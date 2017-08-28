@@ -1,3 +1,40 @@
-<h1>
-  {{title}}
-</h1>
+<nav>
+  <div>
+    <img [src]="LOGO" />
+  </div>
+  <ul>
+    <li><a routerLink="">Home</a></li>
+    <li><a routerLink="residential">Residential</a></li>
+    <li><a routerLink="gallery">Gallery</a></li>
+    <li><a routerLink="about">About</a></li>
+  </ul>
+</nav>
+
+<footer>
+  <div class="form">
+    <div class="user-info">
+      <div class="small-field name">
+
+      </div>
+      <div class="small-field email">
+
+      </div>
+      <div class="small-field phone">
+
+      </div>
+    </div>
+    <div class="message">
+
+    </div>
+  </div>
+
+  <ul>
+    <li>Contact</li>
+    <li>Hours</li>
+    <li>Language</li>
+    <li>Affiliates</li>
+  </ul>
+
+</footer>
+
+<router-outlet></router-outlet>

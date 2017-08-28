@@ -1,0 +1,17 @@
+{
+  "name": "gatlan-capstone",
+  "description": "",
+  "main": "",
+  "authors": [
+    "michaelkoceja <michael.koceja@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/michaelkoceja/gatlan",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
